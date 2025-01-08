@@ -11,11 +11,11 @@ public class AuthController {
 
     @PostMapping("/login")
     public String login(@RequestParam String username, @RequestParam String password) {
-        return "Login successful for " + username;
+        return "Login successful for : " + username;
     }
 
     @PostMapping("/register")
     public String register(@RequestParam String username, @RequestParam String password) {
-        return "User registered successfully";
+        return "User registered successfully.";
     }
 }
