@@ -1,4 +1,4 @@
-package com.ecommerce.payment_history_service;
+package com.ecommerce.payment.history;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,13 +1,13 @@
-package com.ecommerce.transaction_service;
+package com.ecommerce.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransactionServiceApplication {
+public class CustomerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransactionServiceApplication.class, args);
+		SpringApplication.run(CustomerServiceApplication.class, args);
 	}
 
 }

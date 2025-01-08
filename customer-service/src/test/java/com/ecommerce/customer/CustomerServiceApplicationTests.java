@@ -1,10 +1,10 @@
-package com.ecommerce.payment_history_service;
+package com.ecommerce.customer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PaymentHistoryServiceApplicationTests {
+class CustomerServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

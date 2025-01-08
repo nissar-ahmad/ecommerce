@@ -1,10 +1,10 @@
-package com.ecommerce.transaction_service;
+package com.ecommerce.user.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TransactionServiceApplicationTests {
+class UserAuthServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.ecommerce.user_auth_service;
+package com.ecommerce.transaction;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserAuthServiceApplication {
+public class TransactionServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserAuthServiceApplication.class, args);
+		SpringApplication.run(TransactionServiceApplication.class, args);
 	}
 
 }
