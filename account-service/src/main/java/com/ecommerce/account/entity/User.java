@@ -4,7 +4,7 @@ package com.ecommerce.account.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "\"user\"")  // Escape "user" table name
+@Table(name = "\"USER_DETAIL\"")
 public class User {
 
     @Id
