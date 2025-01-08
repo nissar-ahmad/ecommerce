@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ecommerce</groupId>
-	<artifactId>payment-history-service</artifactId>
+	<artifactId>payment-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>payment-history-service</name>
-	<description>Payment History Service</description>
+	<name>payment-service</name>
+	<description>Payment Service</description>
 	<url/>
 	<licenses>
 		<license/>
