@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  account-service:
+    build:
+      context: ./account-service
+    ports:
+      - "8081:8081"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+  payment-service:
+    build:
+      context: ./payment-service
+    ports:
+      - "8086:8086"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+  order-service:
+    build:
+      context: ./order-service
+    ports:
+      - "8084:8084"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+  transaction-service:
+    build:
+      context: ./transaction-service
+    ports:
+      - "8082:8082"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+  customer-service:
+    build:
+      context: ./customer-service
+    ports:
+      - "8085:8085"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+  user-auth-service:
+    build:
+      context: ./user-auth-service
+    ports:
+      - "8083:8083"
+    networks:
+      - ecommerce-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+
+networks:
+  ecommerce-net:
+    driver: bridge
